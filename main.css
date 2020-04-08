@@ -1,0 +1,33 @@
+header{
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+.nav-top{
+	background-color: red;
+}
+.empty{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	background-color: red;
+	width: 80px;
+	content: "";
+	border-top: 22px solid red;
+	border-left: 12px solid white; 
+	padding:0;
+	display: inline-block;
+	
+}
+.input-group{
+	width: 100px;
+	height:20px;
+}
+
+.fa-search, fas,.input-group-append{
+	height: 40px;
+}
+.nav-link{
+	color: black;
+	font-weight: bolder;
+}
