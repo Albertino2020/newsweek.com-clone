@@ -176,8 +176,8 @@ header.container-fluid ul li a{
 	padding-top: 20px;
 }
 .bd{
-	border: 1px solid grey;
-	padding:0;
+border:1px solid #E6E6E6;
+background-color: #FFFFFF;
 }
 .bckg{
 	background: red;
