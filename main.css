@@ -1,15 +1,63 @@
+p {
+	font-size:15px;
+	font-weight: 400px;	
+	}
+	
+h6 {
+	font-size:16px;
+	font-weight: bolder;
+}
+
 html, body{
 	margin:0;
 	width:100%;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
+
 header{
-	display: grid;
-	grid-template-rows: repeat(2, 1fr);
-	margin:0;
+margin:0;
+padding:0;
+}
+header .container-fluid{
+	padding: 20px 10px 15px 10px;
+	background-color: #F73724;
 	width:100%;
 }
-.nav-top{
-	background-color: red;
+.none{
+	margin-left: 20px;
+}
+
+.none div a:hover {
+	text-decoration: none !important;
+	color:white;
+}
+.hd-right{
+	padding-bottom: 0;
+}
+
+.hd-right .btn,
+.hd-right .btn:hover{
+	font-weight:bolder;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none !important;	
+	border-radius: 0;
+	padding:0;
+	margin-left: 10px;
+}
+.hd-right .al{
+	color: white !important;
+}
+.hd-right .a{
+	color: red !important;
+}
+.hdl{
+	margin-bottom: 15px;
+}
+.arrow-right{
+	width: 10px;
+	height: 20px;
+	color:red;
 }
 .empty{
 	position: absolute;
@@ -22,47 +70,42 @@ header{
 	border-top: 13px solid red;
 	border-left: 12px solid white; 
 	padding:0;
-	/* display: inline-block; */
-	
-}
-.input-group{
-	width: 90px;
-	height:40px;
-	padding:0;
-	margin-top: 10px;
 }
 
-.fa-search, .fas,.input-group-append{
-	width: 10px;
-	height: 38px;
-	background-color: white;
-	padding-top: 0;
-	border: none;
-}
 .nav-link{
 	color: black;
 	font-weight: bolder;
 	background-color: white;
+	font-size: 19px;
+}
+form input{
+	width:140px;
+	border:none;
+}
+form input:active{
+	border:0;
+}
+form button{
+	position: absolute;
+	width:35px;
+	background: transparent;
+	margin:0 0 0 -45px;
+	border: none;
+	border-radius:none;
 }
 .navbar-brand img{
-	width: 300px;
-	height: 100px;
+	width: 396px;
+	height: 60px;
 }
 
 .navbar, .navbar-inverse, .navbar-expand-lg, .navbar-light, .bg-light{
 	width: 100%;
-	padding:0;;
-}
-.nav{
-	display: flex;
-	flex-direction: row;
-	align-content: space-between;
-	justify-self: self-end;
+  padding:0;
 }
 
 .nav a{
-	margin:10px;
-	padding:5px; 
+	margin:20px;
+	padding:10px; 
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bolder;
@@ -70,41 +113,15 @@ header{
 	height: 30px;
 }
 .al{
-	width: 70px;
 	color: white;
+	text-decoration:none;
 }
 .a{
-	width: 150px;
+	width: 130px;
 	background-color: white;
 	color: red;
-	
+	font-weight: bolder;	
 }
-.nav .a img{
-	/* display: inline-block; */
-	height: 20px;
-	width:20px;
-	
-}
-header .container-fluid{
-	background-color: red;
-	width:100%;
-}
-header .container-fluid ul li{
-	list-style:none;
-	margin: 10px auto;
-}
-header.container-fluid ul li a{
-	color:white;
-	text-decoration: none;
-	font-weight: bolder;
-}
-
-/* main.container-fluid{
-	display: grid;
-	grid-template-columns: 30% 1fr 1fr;
-	column-gap:10px;
-
-} */
 
 .col1, .col2, .col3{
 	padding:0 15px;
@@ -112,11 +129,23 @@ header.container-fluid ul li a{
 
 .mapping-sm_md{
 	width:100%;
+	margin:0;
 	
 }
 .mapping-md{
 	width:100%;
 	
+}
+.col-lg-9{
+	padding-left:20px;
+}
+.one{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #F4F5F6;
+	width: 100% !important;
+	height: 200px;
 }
 .flex-xs{
 	list-style: none;
@@ -132,6 +161,11 @@ header.container-fluid ul li a{
 .info{
 	border-bottom: 1px solid rgb(197, 191, 191);
 	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.info1{
+	padding-bottom: 10px;
+	margin-bottom: 40px;
 }
 .info-double{
 	border-top: 1px solid rgb(197, 191, 191);
@@ -141,6 +175,14 @@ header.container-fluid ul li a{
 }
 .info-solid-red{
 	border-top:5px solid red;
+	padding: 0 !important;
+	margin:0 !important;
+}
+.info-solid-red .col-lg-3{
+
+	padding-left: 0 !important;
+	margin-left:0 !important;
+	height: 100%;
 }
 .row-pos{
 	margin:0;
@@ -181,4 +223,9 @@ background-color: #FFFFFF;
 }
 .bckg{
 	background: red;
+}
+.none div a{
+	font-size: 1rem  !important;
+	font-weight:700px  !important;
+	line-height: 1.5rem  !important;
 }

@@ -8,70 +8,79 @@
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
 	<title>Newsweek Web Page Clone</title>
 </head>
 
 <body>
-	<header class="navbar navbar-inverse">
+	<header class="navbar navbar-expand-lg static-top">
 		<div class="container-fluid">
-			<ul>
-				<li><a href="#" class="weather-widget">17 Lisbon, PT.</a></li>
-				<li><a href="#" class="date"> Wed, Apr 08, 2020</a></li>
-			</ul>
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#"> <img src="images/Newsweek_Logo.svg" alt="Newsweek Logo"></a>
-			</div>
-			<div class="nav navbar-nav navbar-right">
-				<a class="al" href="#">Sign in</a>
-				<a class="a" href="#">Subscribe <img src="images/icon-arrow-right-black.svg" alt="black arrow"></a>
 
+			<div class="none">
+				<div class="hdl mx-auto"><a href="#" class="al">17 Lisbon, PT.</a></div>
+				<div class="mx-auto"><a href="#" class="al"> Wed, Apr 08, 2020</a></div>
+			</div>
+
+			<div>
+				<a class=" navbar-brand" href="#"> <img class="img-fluid" src="images/Newsweek_Logo.jpg"
+						alt="Newsweek Logo"></a>
+			</div>
+
+			<div class="d-flex hd-right align-self-end">
+				<a class="al btn" href="#">Sign in</a>
+				<a class="a btn" href="#">Subscribe ></a>
 			</div>
 
 		</div>
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="nav-link" href="#">U.S.</a>
-			<span>|</span>
-			<a class="nav-link" href="#">World</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Business</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Tech & Science</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Culture</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Newsgeek</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Sports</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Health</a>
-			<span>|</span>
-			<a class="nav-link" href="#">The Debate</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Vantage</a>
-			<span>|</span>
-			<a class="nav-link" href="#">Weather</a>
-			<div class="input-group mb-3">
-				<input type="text" class="nav-link form-control" placeholder="Search">
-				<div class="input-group-append">
-					<a href="#" class="nav-link input-group-text"><i><img src="images/icon-search-glass.svg" alt="Search ico"></i>
-					</a>
-				</div>
-			</div>
-			<div class="nav-link empty">
-
-			</div>
-		</nav>
 	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="nav-link" href="#">U.S.</a>
+				<span>|</span>
+				<a class="nav-link" href="#">World</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Business</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Tech & Science</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Culture</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Newsgeek</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Sports</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Health</a>
+				<span>|</span>
+				<a class="nav-link" href="#">The Debate</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Vantage</a>
+				<span>|</span>
+				<a class="nav-link" href="#">Weather</a>
+				<form action="#">
+					<input type="text" placeholder="search">
+					<button type="submit">
+						<img class="glyphicon glyphicon-search" src="images/icon-search-glass.svg">
+					</button>
+				</form>
+
+				<div class="nav-link empty">
+
+				</div>
+			</nav>
+		</div>
+	</div>
+
 
 	<main class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
-				<div class="block-title text-uppercase">
+				<div class="block-title text-uppercase font-weight-bold">
 					Featured Stories
 				</div>
 				<article>
-					<a href="#">
+					<a href=" #">
 						<img class="img-responsive mapping-sm_md"
 							src="https://d.newsweek.com/en/full/1580352/times-square-nyc-coronavirus-march-2020.webp?w=397&h=265&q=90&f=1e56621f1858d30c12184fe280dace8d"
 							alt="sample image">
@@ -190,46 +199,8 @@
 						</a>
 					</p>
 				</article>
-				<article>
-					<a href="#">
-						<img class="img-responsive mapping-sm_md"
-							src="https://d.newsweek.com/en/full/1580352/times-square-nyc-coronavirus-march-2020.webp?w=397&h=265&q=90&f=1e56621f1858d30c12184fe280dace8d"
-							alt="sample image">
-					</a>
-					<h4><a class="font-weight-bolder" href="#">
-							U.S. Projected to Have World's Highest Coronavirus Death Toll in Five Days
-						</a>
-					</h4>
-					<p>The death count in the U.S. is poised to overtake that of Italy, which has reported nearly
-						17,700
-						fatalities to date,
-						within the next few days.</p>
-					<p class="info-double">
-						<a class="font-weight-bolder" href="#">
-							Social Distancing May Have Helped Washington and Oregon Flatten the Curve
-						</a>
-					</p>
-				</article>
-				<article>
-					<a href="#">
-						<img class="img-responsive mapping-sm_md"
-							src="https://d.newsweek.com/en/full/1580352/times-square-nyc-coronavirus-march-2020.webp?w=397&h=265&q=90&f=1e56621f1858d30c12184fe280dace8d"
-							alt="sample image">
-					</a>
-					<h4><a class="font-weight-bolder" href="#">
-							U.S. Projected to Have World's Highest Coronavirus Death Toll in Five Days
-						</a>
-					</h4>
-					<p>The death count in the U.S. is poised to overtake that of Italy, which has reported nearly
-						17,700
-						fatalities to date,
-						within the next few days.</p>
-					<p class="info-double">
-						<a class="font-weight-bolder" href="#">
-							Social Distancing May Have Helped Washington and Oregon Flatten the Curve
-						</a>
-					</p>
-				</article>
+
+
 			</div>
 			<!--FIRST COLUM ENDS HERE-->
 
@@ -245,7 +216,8 @@
 							Three Weeks</a>
 					</small>
 				</h4>
-				<p>New jobless claim numbers show around 16.7 million Americans have applied for unemployment benefits over the
+				<p>New jobless claim numbers show around 16.7 million Americans have applied for unemployment benefits over
+					the
 					last three
 					weeks.</p>
 
@@ -527,26 +499,11 @@
 							</p>
 						</div>
 					</div>
-					<div class="row info">
-						<div class="col-lg-3">
-							<img class="img-responsive mapping-sm_md"
-								src="https://d.newsweek.com/en/full/1580325/attorney-general-william-barr.webp?w=95&h=95&f=2fb5b790f5111a699c81fd6c5f2daf5b"
-								alt="Sample image">
-						</div>
-						<div class="col-lg-9">
-							<p class="lead, font-weight-bolder">
-								Bill Barr Accuses Media of 'Jihad' to Discredit Hydroxychloroquine
-							</p>
-							<p>
-								The Attorney General told Fox News anchor Laura Ingraham that the debate about the malaria drug has
-								been politicized.
-							</p>
-						</div>
-					</div>
+
 				</div>
 
-
 			</div>
+
 			<!--SECOND COLUM ENDS HERE-->
 
 			<div class="col-lg-4 content-right">
@@ -605,7 +562,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="info row">
+				<div class="info1 row">
 					<div class="col-lg-3">
 						<a href="#">
 							<img class="img-responsive"
@@ -754,13 +711,14 @@
 								How Can a Good Business Education Benefit You?
 							</h5>
 							<p>
-								Enrolling at a good Business School might be the best investment you can make in your future, and while
+								Enrolling at a good Business School might be the best investment you can make in your future, and
+								while
 								costs can be significant, the rewards are incalculable. Find out more.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="well">
+				<div class="well one">
 					<div class="media">
 						<img class="media-object bckg" style="width:60px" src="https://g.newsweek.com/www/images/logo-n1.svg"
 							alt="sample image">
@@ -783,7 +741,8 @@
 								How Can a Good Business Education Benefit You?
 							</h5>
 							<p>
-								Enrolling at a good Business School might be the best investment you can make in your future, and while
+								Enrolling at a good Business School might be the best investment you can make in your future, and
+								while
 								costs can be significant, the rewards are incalculable. Find out more.
 							</p>
 						</div>
@@ -798,7 +757,8 @@
 								How Can a Good Business Education Benefit You?
 							</h5>
 							<p>
-								Enrolling at a good Business School might be the best investment you can make in your future, and while
+								Enrolling at a good Business School might be the best investment you can make in your future, and
+								while
 								costs can be significant, the rewards are incalculable. Find out more.
 							</p>
 						</div>
