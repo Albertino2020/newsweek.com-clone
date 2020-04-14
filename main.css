@@ -2,7 +2,12 @@ p {
 	font-size:15px;
 	font-weight: 400px;	
 	}
-	
+	a{
+		color:black;
+	}
+	h4, h4 small a{
+		font-weight:bolder;
+	}
 h6 {
 	font-size:16px;
 	font-weight: bolder;
