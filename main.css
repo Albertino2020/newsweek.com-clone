@@ -11,9 +11,13 @@ h6 {
 html, body{
 	margin:0;
 	width:100%;
-  font-family: 'Roboto Condensed', sans-serif !important;
-}
+	font-family: 'Roboto Condensed', sans-serif !important;
 
+}
+.zero{
+	margin:0 !important;
+	padding:0 !important;
+}
 header{
 margin:0;
 padding:0;
@@ -23,6 +27,15 @@ header .container-fluid{
 	background-color: #F73724;
 	width:100%;
 }
+nav-row {
+	margin-right: 70px !important;
+}
+
+.absolute{
+	position:absolute;
+	
+}
+
 .none{
 	margin-left: 20px;
 }
@@ -62,8 +75,8 @@ header .container-fluid{
 .empty{
 	position: absolute;
 	top: 0;
-	right: 0;
-	display: block;
+	right:0;
+	display: inline-block;
 	background-color: red;
 	width: 60px;
 	content: "";
@@ -72,35 +85,40 @@ header .container-fluid{
 	padding:0;
 }
 
+nav
+
 .nav-link{
 	color: black;
 	font-weight: bolder;
 	background-color: white;
 	font-size: 19px;
+	margin:0;
+	padding:0;
 }
-form input{
-	width:140px;
-	border:none;
+
+input{
+	width:100px;
 }
-form input:active{
-	border:0;
+nav.button{
+	margin-right: 100px !important;
 }
-form button{
+.img{
 	position: absolute;
-	width:35px;
-	background: transparent;
-	margin:0 0 0 -45px;
-	border: none;
-	border-radius:none;
+	margin-left:-60px;
+	margin-top:0;
+	margin-right: 100px;
+	width:20px;
+	background: transparent !important;
 }
 .navbar-brand img{
 	width: 396px;
 	height: 60px;
 }
 
-.navbar, .navbar-inverse, .navbar-expand-lg, .navbar-light, .bg-light{
+.navbar{
 	width: 100%;
-  padding:0;
+	padding:0 !important;
+	margin:0;
 }
 
 .nav a{
@@ -140,12 +158,14 @@ form button{
 	padding-left:20px;
 }
 .one{
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #F4F5F6;
-	width: 100% !important;
-	height: 200px;
+	height: 170px;
+	margin: 40px 40px !important;
+	padding: 20px 20px 20px 0;
 }
 .flex-xs{
 	list-style: none;
@@ -223,9 +243,104 @@ background-color: #FFFFFF;
 }
 .bckg{
 	background: red;
+	margin:0 10px 0 20px;
+}
+.strip{
+	margin: 0 0 20px 0 !important;
+	padding: 0px 20px;
+	border-width: 0 0 1px 0 !important;
+}
+.red{
+	color: red !important;
+}
+.button{
+	padding:0;
+	margin:0 70 0 0 !important;
+}
+
+.well button{
+	width: 100px;
+	background:#666666;
+	color: white !important;
+	margin:0 auto 0 20px;
+	border: none;
+	border-radius: 0;
+}
+.well button:hover {
+	background:#9c9b9b;
+
+}
+.well p{
+	color: black !important;
+	margin:0 auto 10px 20px !important;
+	font-size: 16px !important;
+	text-decoration:none;
+}
+.well p a{
+	color: black !important;
+}
+.well p a:hover{
+ text-decoration: none;
 }
 .none div a{
 	font-size: 1rem  !important;
 	font-weight:700px  !important;
 	line-height: 1.5rem  !important;
+}
+.overlap{
+	position: absolute;
+	left:70px;
+}
+
+.media-subscribe{
+	width: 100%;
+	background-color: #F4F5F6;
+}
+.nl-img{
+	width:40%;
+	height: 265px !important;
+}
+.media-body{
+margin: auto 20px auto 20px;
+padding: auto;
+}
+.media-body button{
+	background-color: red;
+	width: 110px;
+	height: 40px;
+	border-radius: 0;
+	color: white !important;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.space{
+	margin: 40px auto;
+}
+
+.col-lg-12{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+.col-lg-12 a{
+color:black !important;	
+font-size:16px;
+
+}
+.col-lg-12 p{
+margin: auto 20px;
+}
+.col-lg-12 h6{
+margin-right:20px;
+}
+.footer-bottom{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+footer .row .space{
+	border-bottom: 1px solid whitesmoke;
+	padding-bottom: 5px;
 }

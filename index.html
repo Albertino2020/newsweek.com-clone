@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
 
 	<title>Newsweek Web Page Clone</title>
+
 </head>
 
 <body>
@@ -31,12 +32,11 @@
 				<a class="al btn" href="#">Sign in</a>
 				<a class="a btn" href="#">Subscribe ></a>
 			</div>
-
 		</div>
 	</header>
 	<div class="container-fluid">
 		<div class="row">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav class="col-lg-12 d-flex flex-row navbar">
 				<a class="nav-link" href="#">U.S.</a>
 				<span>|</span>
 				<a class="nav-link" href="#">World</a>
@@ -58,20 +58,17 @@
 				<a class="nav-link" href="#">Vantage</a>
 				<span>|</span>
 				<a class="nav-link" href="#">Weather</a>
-				<form action="#">
+				<form class="nav-link" action="#">
 					<input type="text" placeholder="search">
-					<button type="submit">
-						<img class="glyphicon glyphicon-search" src="images/icon-search-glass.svg">
-					</button>
+					<!-- <button type="submit"> -->
+					<img class="btn absolute glyphicon glyphicon-search medi-object img-responsive img-fluid"
+						src="images/icon-search-glass.svg">
+					<!-- </button> -->
 				</form>
-
-				<div class="nav-link empty">
-
-				</div>
+				<div class="nav-link empty"></div>
 			</nav>
 		</div>
 	</div>
-
 
 	<main class="container-fluid">
 		<div class="row">
@@ -483,7 +480,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="row info">
+					<div class="row info1">
 						<div class="col-lg-3">
 							<img class="img-responsive mapping-sm_md"
 								src="https://d.newsweek.com/en/full/1580325/attorney-general-william-barr.webp?w=95&h=95&f=2fb5b790f5111a699c81fd6c5f2daf5b"
@@ -702,8 +699,8 @@
 				</div>
 				<div class="container-fluid pad-top">
 					<div class="row">
-						<div class="col-lg-12 bd">
-							<img class="img-responsive mapping-md"
+						<div class="col-lg-12 bd d-flex media flex-column">
+							<img class="img-responsive media-object img-fluid"
 								src="https://d.newsweek.com/en/full/1573585/stu-clark-graduate-school.jpg?w=500&h=333&f=cfb77dda9301d18238ff0b6c01ac19e4"
 								alt="side images">
 
@@ -720,20 +717,20 @@
 				</div>
 				<div class="well one">
 					<div class="media">
-						<img class="media-object bckg" style="width:60px" src="https://g.newsweek.com/www/images/logo-n1.svg"
+						<img class="media-object bckg" style="width:30px" src="https://g.newsweek.com/www/images/logo-n1.svg"
 							alt="sample image">
-						<p class="media-heading font-weight-bolder text-uppercase">Sign up for our newsletter</p>
+						<h6 class="media-heading font-weight-bolder text-uppercase">Sign up for our newsletter</h6>
 					</div>
 
-					<button type="button" class="btn btn-primary media-left">SIGN UP</button>
-					<h5> <a href="#">Update your preferences» </a></h5>
+					<button type="button" class="btn btn-primary media-left font-weight-bolder text-uppercase">SIGN UP ></button>
+					<p class="font-weight-bolder"> <a href="#">Update your preferences» </a></p>
 
 				</div>
 
 				<div class="container-fluid pad-top">
 					<div class="row">
-						<div class="col-lg-12 bd">
-							<img class="img-responsive mapping-md"
+						<div class="col-lg-12 bd media d-flex flex-column">
+							<img class="img-responsive img-fluid media-object "
 								src="https://d.newsweek.com/en/full/1573585/stu-clark-graduate-school.jpg?w=500&h=333&f=cfb77dda9301d18238ff0b6c01ac19e4"
 								alt="side images">
 
@@ -748,8 +745,8 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-12 bd">
-							<img class="img-responsive mapping-md"
+						<div class="col-lg-12 bd d-flex media flex-column">
+							<img class="img-fluid media-object img-responsive"
 								src="https://d.newsweek.com/en/full/1573585/stu-clark-graduate-school.jpg?w=500&h=333&f=cfb77dda9301d18238ff0b6c01ac19e4"
 								alt="side images">
 
@@ -771,10 +768,10 @@
 
 		<!---THE WELL STARTS HERE-->
 
-		<div class="well row d-flex justify-content-center bd">
+		<div class="well row d-flex justify-content-center bd strip">
 
 			<div class="media">
-				<img class="media-object bckg" style="width:60px" src="https://g.newsweek.com/www/images/logo-n1.svg"
+				<img class="media-object bckg" style="width:30px" src="https://g.newsweek.com/www/images/logo-n1.svg"
 					alt="sample image">
 				<p class="media-heading font-weight-bolder text-uppercase">In The Magazine</p>
 			</div>
@@ -903,12 +900,12 @@
 		</div>
 		<!---THE WELL STARTS HERE-->
 
-		<div class="well row d-flex justify-content-center bd">
+		<div class="well row d-flex justify-content-center bd strip">
 
 			<div class="media">
-				<img class="media-object bckg" style="width:60px" src="https://g.newsweek.com/www/images/logo-n1.svg"
+				<img class="media-object bckg" style="width:30px" src="https://g.newsweek.com/www/images/logo-n1.svg"
 					alt="sample image">
-				<p class="media-heading font-weight-bolder text-uppercase">In The Magazine</p>
+				<p class="media-heading font-weight-bolder text-uppercase">Edior's Pick</p>
 			</div>
 
 		</div>
@@ -1026,20 +1023,6 @@
 
 			</div>
 		</div>
-
-		<!---THE WELL STARTS HERE-->
-
-		<div class="well row d-flex justify-content-center bd">
-
-			<div class="media">
-				<img class="media-object bckg" style="width:60px" src="https://g.newsweek.com/www/images/logo-n1.svg"
-					alt="sample image">
-				<p class="media-heading font-weight-bolder text-uppercase">In The Magazine</p>
-			</div>
-
-		</div>
-
-		<!---THE WELL ENDS HERE-->
 
 		<div class="container-fluid">
 			<div class="row">
@@ -1077,10 +1060,14 @@
 		</div>
 		<!--CONTAINNER ENDS HERE-->
 
+		<div class="well row d-flex justify-content-center bd strip">
+
+		</div>
+
 		<!--CONTAINNER BEGINS HERE-->
 
 		<div class="container-fluid">
-			<h4 class="block-title text-uppercase font-weight-bolder">
+			<h4 class="block-title text-uppercase font-weight-bolder red">
 				U. S.
 			</h4>
 			<div class="row">
@@ -1145,11 +1132,13 @@
 		</div>
 
 		<!--CONTANNER ENDS HERE-->
+		<div class="well row d-flex justify-content-center bd strip">
 
+		</div>
 		<!--CONTAINNER BEGINS HERE-->
 
 		<div class="container-fluid">
-			<h4 class="block-title text-uppercase font-weight-bolder">
+			<h4 class="block-title text-uppercase font-weight-bolder red">
 				World
 			</h4>
 			<div class="row">
@@ -1213,11 +1202,14 @@
 			</div>
 		</div>
 		<!--CONTANNER ENDS HERE-->
+		<div class="well row d-flex justify-content-center bd strip">
+
+		</div>
 
 		<!--CONTAINNER BEGINS HERE-->
 
 		<div class="container-fluid">
-			<h4 class="block-title text-uppercase font-weight-bolder">
+			<h4 class="block-title text-uppercase font-weight-bolder red">
 				Business
 			</h4>
 			<div class="row">
@@ -1281,11 +1273,14 @@
 			</div>
 		</div>
 		<!--CONTANNER ENDS HERE-->
+		<div class="well row d-flex justify-content-center bd strip">
+
+		</div>
 
 		<!--CONTAINNER BEGINS HERE-->
 
 		<div class="container-fluid">
-			<h4 class="block-title text-uppercase font-weight-bolder">
+			<h4 class="block-title text-uppercase font-weight-bolder red">
 				Tech ¬ Science
 			</h4>
 			<div class="row">
@@ -1349,11 +1344,14 @@
 			</div>
 		</div>
 		<!--CONTANNER ENDS HERE-->
+		<div class="well row d-flex justify-content-center bd strip">
+
+		</div>
 
 		<!--CONTAINNER BEGINS HERE-->
 
 		<div class="container-fluid">
-			<h4 class="block-title text-uppercase font-weight-bolder">
+			<h4 class="block-title text-uppercase font-weight-bolder red">
 				Culture
 			</h4>
 			<div class="row">
@@ -1417,11 +1415,14 @@
 			</div>
 		</div>
 		<!--CONTANNER ENDS HERE-->
+		<div class="well row d-flex justify-content-center bd strip">
+
+		</div>
 
 		<!--CONTAINNER BEGINS HERE-->
 
 		<div class="container-fluid">
-			<h4 class="block-title text-uppercase font-weight-bolder">
+			<h4 class="block-title text-uppercase font-weight-bolder red">
 				Sports
 			</h4>
 			<div class="row">
@@ -1485,28 +1486,31 @@
 			</div>
 		</div>
 		<!--CONTANNER ENDS HERE-->
+		<div class="well row d-flex justify-content-center bd strip">
 
-		<div class="container-fluid">
+		</div>
+
+		<div class="container-fluid space">
 			<div class="row">
-				<div class="col-lg-7">
-					<h4 class="block-title font-weight-bolder text-uppercase">
+				<div class="col-lg-7 ">
+					<h6 class="block-title font-weight-bolder text-uppercase red">
 						Subscribe
-					</h4>
-					<div class="media">
+					</h6>
+					<div class="media media-subscribe">
 
-						<div class="media-left" style="width:300px">
+						<div class="media-left" style="width:260px">
 							<img class="img-responsive mapping-sm_md media-object" style="width:200px"
 								src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg?w=170&q=95&f=e7b6af0ef76e162727acd0141bfc2e8a"
 								alt="sample image">
 
-							<img class="img-responsive mapping-sm_md media-object" style="width:200px"
+							<img class="img-responsive mapping-sm_md media-object overlap" style="width:200px"
 								src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg?w=170&q=95&f=a4b41b48dc29ccde5be9091db89cdf35"
 								alt="sample image">
 						</div>
 						<div class="media-body">
-							<h4 class="font-weight-bolder text-uppercase media-heading">
+							<h5 class="font-weight-bolder text-uppercase media-heading">
 								In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
-							</h4>
+							</h5>
 
 							<p>All Access + Weekly Delivery.</p>
 							<p>Choose A Membership That's Perfect for You!</p>
@@ -1515,22 +1519,21 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="col-lg-5">
-					<h4 class="block-title font-weight-bolder text-uppercase">
+					<h6 class="block-title font-weight-bolder text-uppercase red">
 						Newsletter
-					</h4>
+					</h6>
+
 					<div class="media">
 
-
-						<img class="img-responsive mapping-sm_md media-object" style="width:200px"
+						<img class="img-responsive mapping-sm_md media-object nl-img"
 							src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
 							alt="sample image">
 
 						<div class="media-body">
-							<h4 class="font-weight-bolder text-uppercase media-heading">
+							<h5 class="font-weight-bolder text-uppercase media-heading">
 								The Starting 5
-							</h4>
+							</h5>
 
 							<p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
 
@@ -1542,137 +1545,92 @@
 				</div>
 			</div>
 
-
-
+		</div>
+		<div class="well row d-flex justify-content-center bd strip">
 
 		</div>
 	</main>
 
-	<footer class="page-footer font-small">
+	<footer class="container-fluid">
 
-		<div style="background-color: white">
-			<div class="container">
+		<div class="row">
 
-				<div class="row py-4 d-flex align-items-center">
+			<div class="col-lg-4 d-flex space align-items-end">
+				<img class="img-responsive mapping-md" style="width:200px"
+					src="https://cdn.clipart.email/8e60494207801b793d4a8d169fc37b76_newsweek-logo-fabric-pots-air-pruning-pots-for-growers-_6000-910.png"
+					alt="sample image">
 
-					<div class="col-lg-2">
-						<h6 class="mb-0"><img class="img-responsive mapping-md"
-								src="https://cdn.clipart.email/8e60494207801b793d4a8d169fc37b76_newsweek-logo-fabric-pots-air-pruning-pots-for-growers-_6000-910.png"
-								alt="sample image"></h6>
-					</div>
-
-					<div class="col-lg-2">
-						<span>© 2020 NEWSWEEK</span>
-					</div>
-
-					<div class="col-lg-8 text-center text-md-right">
-
-						<!-- Facebook -->
-						<a class="fb-ic">
-							<i class="fab fa-facebook-f white-text mr-4"> </i>
-						</a>
-						<!-- Twitter -->
-						<a class="tw-ic">
-							<i class="fab fa-twitter white-text mr-4"> </i>
-						</a>
-						<!-- Google +-->
-						<a class="gplus-ic">
-							<i class="fab fa-google-plus-g white-text mr-4"> </i>
-						</a>
-						<!--Linkedin -->
-						<a class="li-ic">
-							<i class="fab fa-linkedin-in white-text mr-4"> </i>
-						</a>
-						<!--Instagram-->
-						<a class="ins-ic">
-							<i class="fab fa-instagram white-text"> </i>
-						</a>
-
-					</div>
-					<!-- Grid column -->
-
-				</div>
-				<!-- Grid row-->
-
+				<span>© 2020 Newsweek</span>
 			</div>
+
+			<div class="col-lg-8 d-flex space justify-content-end">
+
+				<a class="fb-ic">
+					<i class="fab fa-facebook-f white-text mr-4"> </i>
+				</a>
+
+				<a class="tw-ic">
+					<i class="fab fa-twitter white-text mr-4"> </i>
+				</a>
+
+				<a class="ins-ic">
+					<i class="fab fa-instagram white-text mr-4"> </i>
+				</a>
+
+				<a class="li-ic">
+					<i class="fab fa-linkedin-in white-text "> </i>
+				</a>
+			</div>
+
+
 		</div>
 
-		<!-- Footer Links -->
-		<div class="container text-center text-md-left mt-5">
 
-			<!-- Grid row -->
-			<div class="row mt-3 dark-grey-text">
+		<div class="row">
 
-				<!-- Grid column -->
-				<div class="col-lg-2">
 
-					<!-- Content -->
-					<h6 class="text-uppercase font-weight-bold">Editions:</h6>
+			<div class=" col-lg-12">
 
-				</div>
-				<!-- Grid column -->
+				<h6 class="text-uppercase font-weight-bold">Editions:</h6>
 
-				<!-- Grid column -->
-				<div class="col-lg-2">
 
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"><a href="#">U.S. Edition </a></h6>
+				<p class="text-uppercase font-weight-bold"><a href="#">U.S. Edition </a>
+				</p>
+				|
 
-				</div>
-				<!-- Grid column -->
+				<p class="text-uppercase font-weight-bold"><a href="#">日本</a></p>
+				|
 
-				<!-- Grid column -->
-				<div class="col-lg-2">
+				<p class="text-uppercase font-weight-bold"><a href="#">Polska </a></p>
+				|
 
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"><a href="#">日本</a></h6>
-				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
-				<div class="col-lg-2">
-
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"><a href="#">Pakistan </a></h6>
-				</div>
-				<!-- Grid column -->
-				<!-- Grid column -->
-				<div class="col-lg-2">
-
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"><a href="#">Polska </a></h6>
-				</div>
-				<!-- Grid column -->
-				<!-- Grid column -->
-				<div class="col-lg-2">
-
-					<!-- Links -->
-					<h6 class="text-uppercase font-weight-bold"><a href="#">Romania </a></h6>
-				</div>
-
+				<p class="text-uppercase font-weight-bold"><a href="#">Romania </a></p>
 			</div>
-			<!-- Grid row -->
+
 
 		</div>
-		<!-- Footer Links -->
-		<div>
-			<a href="#">About Us</a> |
-			<a href="#">Corrections</a> |
-			<a href="#">Contact Us</a>
-			<a href="#">Editorial Guidelines</a> |
-			<a href="#">Advertise</a> |
-			<a href="#">Copyright</a> |
-			<a href="#">Terms & Conditions</a> |
-			<a href="#">Privacy Policy</a> |
-			<a href="#">Cookie Policy</a> |
-			<a href="#">Terms of Sale</a> |
-			<a href="#">Archive</a> |
-			<a href="#">Announcements</a> |
-			<a href="#">Consent preferences</a>
+
+
+		<div class="row">
+			<div class="col-lg-12 d-flex footer-bottom flex-nowrap ">
+				<a href="#">About Us</a> |
+				<a href="#">Corrections</a> |
+				<a href="#">Contact Us</a>
+				<a href="#">Editorial Guidelines</a> |
+				<a href="#">Advertise</a> |
+				<a href="#">Copyright</a> |
+				<a href="#">Terms & Conditions</a> |
+				<a href="#">Privacy Policy</a> |
+				<a href="#">Cookie Policy</a> |
+				<a href="#">Terms of Sale</a> |
+				<a href="#">Archive</a> |
+				<a href="#">Announcements</a> |
+				<a href="#">Consent preferences</a>
+			</div>
 		</div>
 
 	</footer>
-	<!-- Footer -->
+
 
 </body>
 
