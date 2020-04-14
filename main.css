@@ -131,21 +131,25 @@ nav.button{
 	padding:0 !important;
 	margin:0;
 }
+.nav{
+	border-bottom: 2px solid whitesmoke;
+}
 
 .nav a{
-	margin:0 !important;
-	padding:0 !important; 
+	margin: 10px 0; !important;
+	padding:3px auto !important; 
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bolder;
-	display: inline-block !important;
+	font-weight: bold;
 	height: 30px !important;
-	max-width: 10% !important;
+	width:auto;
+	max-width: auto !important;
 	color:black !important;
+	justify-items: center;
 }
 .nav .btn{
 	width: 50px;
-	margin-left:-100px !important;
+	margin-left:-70px !important;
 }
 .nav input{
 	width:100px;
@@ -175,6 +179,7 @@ nav.button{
 }
 .mapping-md{
 	width:100%;
+	margin:0;
 	
 }
 .col-lg-9{
@@ -337,7 +342,7 @@ padding: auto;
 	font-weight: bolder;
 }
 .space{
-	margin: 40px auto;
+	margin: 40px 0;
 }
 
 .col-lg-12{
@@ -356,13 +361,7 @@ margin: auto 20px;
 .col-lg-12 h6{
 margin-right:20px;
 }
-.footer-bottom{
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	
-}
+
 footer .row .space{
 	border-bottom: 1px solid whitesmoke;
 	padding-bottom: 5px;
@@ -411,3 +410,31 @@ footer .row .space{
 	color:red !important;
 	margin-left: 10px;
 }
+.fts{
+	margin:20px 10px 20px 0;
+}
+footer{
+	box-sizing: border-box !important;
+	width:100% !important;
+	margin:0 !important;
+}
+ul{
+	list-style:none;
+}
+.mrg-zero{
+	margin:10px 0;
+	padding:0 0 0 20px;
+
+}
+.img-zero{
+	margin:auto 5px;
+	
+}
+.fb-ic, .tw-ic, .ins-ic, .li-ic{
+	font-size: 24px;
+	font-weight: bolder;
+}
+.sp{
+	display: flex;
+	padding:3px 3px !important;
+} 
