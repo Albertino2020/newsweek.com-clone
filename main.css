@@ -1,3 +1,58 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;
+
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+/* set the overriding variables */
+$grid-breakpoints: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+)
+$container-max-widths: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+);
+@import "bootstrap";
+
+html, body{
+	box-sizing: border-box !important;
+	margin:0;
+	width:100%;
+	font-family: 'Roboto Condensed', sans-serif !important;
+
+}
 p {
 	font-size:15px;
 	font-weight: 400px;	
@@ -13,13 +68,6 @@ h6 {
 	font-weight: bolder;
 }
 
-html, body{
-	box-sizing: border-box !important;
-	margin:0;
-	width:100%;
-	font-family: 'Roboto Condensed', sans-serif !important;
-
-}
 .zero{
 	margin:0 !important;
 	padding:0 !important;

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="phone.css" media="screen and (max-with:375px"> -->
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
 
@@ -15,7 +16,66 @@
 </head>
 
 <body>
-	<header class="navbar navbar-expand-lg static-top">
+	<!-- PHONE SIZE SCREEN NAVBAR -->
+	<header class="phone d-xs-block d-sm-none d-md-none d-lg-none d-xl-none">
+		<nav class="sm navbar phone">
+
+			<div class="sm container-fluid">
+
+				<a href="#"> <img class="lg-phone" src="images/Newsweek_Logo.jpg" alt="Newsweek Logo"></a>
+
+				<a class=" white btn b1 text-uppercase font-weight-bolder" href="#">Sign in</a>
+				<a class="btn b2 text-uppercase font-weight-bolder" href="#">Subscribe ></a>
+				<a class="white" href="#"> <i class="fas fa-bars"></i></a>
+
+			</div>
+
+		</nav>
+	</header>
+	<!-- PHONE  SIZE SCREEN NAVBAR END HERE -->
+
+	<!-- PHONE SIZE1 SCREEN NAVBAR -->
+	<div class="d-none d-xxs-none d-xs-none d-sm-block d-md-none d-lg-none d-xl-none navbar phone1">
+
+		<div class="container-fluid">
+
+			<a href="#"> <img class="lg-phone" src="images/Newsweek_Logo.jpg" alt="Newsweek Logo"></a>
+
+			<a class="white p1" href="#">17</a>
+
+			<a class=" white btn b1 text-uppercase font-weight-bolder" href="#">Sign in</a>
+			<a class="btn b2 text-uppercase font-weight-bolder" href="#">Subscribe ></a>
+			<a class="white" href="#"> <i class="fas fa-bars"></i></a>
+
+		</div>
+
+	</div>
+
+	<!-- PHONE1 SIZE SCREEN NAVBAR ENDES HERE -->
+
+	<!-- TAB SCREEN NAVBAR -->
+	<div class="sm d-none d-xxs-none d-xs-none d-md-block d-sm-none d-lg-none d-xl-none navbar tab">
+
+		<div class="sm container-fluid">
+
+			<a href="#"> <img class="lg-phone" src="images/Newsweek_Logo.jpg" alt="Newsweek Logo"></a>
+
+			<a class="white p1" href="#">17 <span>Lisbon, PT</span></a>
+
+			<a class=" white btn b1 text-uppercase font-weight-bolder" href="#">Sign in</a>
+			<a class="btn b2 text-uppercase font-weight-bolder" href="#">Subscribe ></a>
+			<a class="white" href="#"> <i class="fas fa-bars"></i></a>
+
+		</div>
+
+	</div>
+	<!-- TAB SIZE SCREEN NAVBAR ENDS HERE -->
+
+
+
+
+	<header
+		class="d-none d-xxs-none d-xs-none d-sm-none d-lg-block d-md-none d-xl-block navbar navbar-expand-lg static-top">
 		<div class="container-fluid">
 
 			<div class="none">
@@ -35,7 +95,7 @@
 		</div>
 	</header>
 
-	<div class="full container-fluid">
+	<div class="d-none d-xs-none d-sm-none d-lg-block d-md-none d-xl-block full container-fluid">
 		<div class="row full">
 			<div class="col-lg-11  full">
 				<nav class="nav navbar">
