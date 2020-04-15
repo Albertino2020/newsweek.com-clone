@@ -142,10 +142,9 @@ nav.button{
 }
 
 .nav a{
-	margin: 10px 0; !important;
+	margin: 10px 0 !important;
 	padding:3px auto !important; 
 	text-decoration: none;
-	text-transform: uppercase;
 	font-weight: bold;
 	height: 30px !important;
 	width:auto;
