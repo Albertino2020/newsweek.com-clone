@@ -5,6 +5,12 @@ html, body{
 	font-family: 'Roboto Condensed', sans-serif !important;
 
 }
+@media screen and (max-width: 991px){
+main{
+	margin-top: 70px;	
+}	
+}
+
 p {
 	font-size:15px;
 	font-weight: 400px;	
@@ -503,3 +509,9 @@ ul{
 }
 
 /*MD CLASSES END HERE*/
+.xs, .sm, .md {
+	top: 0;
+	left:0;
+	position: fixed;
+	z-index: 1;
+}
