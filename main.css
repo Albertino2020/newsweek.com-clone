@@ -445,15 +445,7 @@ ul{
 	padding:3px 3px !important;
 }
 
-/*XS CLASSES START HERE*/
-.xs{
-	margin:0 !important;
-}
-
-.xs-lg{
-	width: 100px;
-	height: 30px;
-}
+/*THESE CLASSES ARE COMMON TO SMALL SCREENS*/
 .white{
 	color: white;
 	background-color: transparent;
@@ -474,5 +466,41 @@ ul{
 	text-decoration:none;
 }
 
+/* CLASSES COMMON TO SMALL SCREENS END HERE */
 
+/*XS CLASSES START HERE*/
+.xs{
+	margin:0 !important;
+}
+
+.xs-lg{
+	width: 100px;
+	height: 30px;
+}
 /*XS CLASSES END HERE*/
+
+/*SM CLASSES START HERE*/
+.sm{
+	margin:0 !important;
+}
+
+.sm-lg{
+	width: 100px;
+	height: 30px;
+}
+
+
+/*SM CLASSES END HERE*/
+
+
+/*MD CLASSES START HERE*/
+.md{
+	margin:0 !important;
+}
+
+.md-lg{
+	width: 150px;
+	height: 30px;
+}
+
+/*MD CLASSES END HERE*/
