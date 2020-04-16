@@ -8,6 +8,12 @@ html, body{
 @media screen and (max-width: 991px){
 main{
 	margin-top: 70px;	
+}
+.col-md-11 h4{
+	margin-left:20px;
+}
+.col-md-11 div{
+	margin-left:10px;
 }	
 }
 
@@ -30,6 +36,7 @@ h6 {
 	margin:0 !important;
 	padding:0 !important;
 }
+
 header{
 margin:0;
 padding:0;
@@ -87,7 +94,6 @@ main{
 	color:red;
 }
 .empty{
-	/* position: absolute; */
 	top: 0;
 	right:0;
 	margin-right:0;
@@ -193,7 +199,7 @@ nav.button{
 	margin:0;
 	
 }
-.col-lg-9{
+.col-md-9{
 	padding-left:20px;
 }
 .one{
@@ -202,9 +208,14 @@ nav.button{
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #F4F5F6;
+	max-width:300px;
 	height: 170px;
-	margin: 40px 40px !important;
-	padding: 20px 20px 20px 0;
+	/* margin: 40px 40px !important;
+	padding: 20px 20px 20px 0;     */
+	margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    /* background-color: #f4f5f6; */
+    padding: 20px;
 }
 .flex-xs{
 	list-style: none;
@@ -237,7 +248,7 @@ nav.button{
 	padding: 0 !important;
 	margin:0 !important;
 }
-.info-solid-red .col-lg-3{
+.info-solid-red .col-md-3{
 
 	padding-left: 0 !important;
 	margin-left:0 !important;
@@ -270,11 +281,14 @@ nav.button{
 	margin-bottom: 40px;
 }
 .latest{
-	width: 100%;
-	padding-right: 10px;
+	width: 100px;
+	margin: 0 10px 10px 0;
 }
 .pad-top{
-	padding-top: 20px;
+	  padding-top: 20px;
+    max-width: 350px;
+    margin: 0 auto 30px;
+    padding: 20px;
 }
 .bd{
 border:1px solid #E6E6E6;
@@ -282,7 +296,7 @@ background-color: #FFFFFF;
 }
 .bckg{
 	background: red;
-	margin:0 10px 0 20px;
+	margin:10px 10px 0 20px;
 }
 .strip{
 	margin: 0 0 20px 0 !important;
@@ -311,7 +325,7 @@ background-color: #FFFFFF;
 }
 .well p{
 	color: black !important;
-	margin:0 auto 10px 20px !important;
+	margin:10px auto 10px 20px !important;
 	font-size: 16px !important;
 	text-decoration:none;
 }
@@ -356,20 +370,20 @@ padding: auto;
 	margin: 40px 0;
 }
 
-.col-lg-12{
+.col-md-12{
 	display: flex;
 	flex-direction: row;
 	margin: 0;
 }
-.col-lg-12 a{
+.col-md-12 a{
 color:black !important;	
-font-size:16px;
+font-size:14px;
 
 }
-.col-lg-12 p{
+.col-md-12 p{
 margin: auto 20px;
 }
-.col-lg-12 h6{
+.col-md-12 h6{
 margin-right:20px;
 }
 
@@ -422,19 +436,19 @@ footer .row .space{
 	margin-left: 10px;
 }
 .fts{
-	margin:20px 10px 20px 0;
+	margin:10px 10px 10px 0;
 }
 footer{
 	box-sizing: border-box !important;
-	width:100% !important;
-	margin:0 !important;
+	width:97% !important;
+	margin:0 auto; !important;
 }
 ul{
 	list-style:none;
 }
 .mrg-zero{
 	margin:10px 0;
-	padding:0 0 0 20px;
+	padding:0 0 0 0px;
 
 }
 .img-zero{
@@ -442,7 +456,7 @@ ul{
 	
 }
 .fb-ic, .tw-ic, .ins-ic, .li-ic{
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bolder;
 }
 .sp{
@@ -490,7 +504,7 @@ ul{
 }
 
 .sm-lg{
-	width: 100px;
+	width: 150px;
 	height: 30px;
 }
 
@@ -504,7 +518,7 @@ ul{
 }
 
 .md-lg{
-	width: 150px;
+	width: 200px;
 	height: 30px;
 }
 
