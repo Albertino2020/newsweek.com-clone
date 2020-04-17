@@ -36,6 +36,33 @@ h6 {
 	margin: 0 !important;
 	padding:0 !important;
 }
+.auto{
+	box-sizing: border-box;
+	text-align: center !important;
+	align-self: center;
+	margin: 20px auto;
+}
+.auto .overlap1{
+	position: absolute !important;
+	margin-left: auto;
+	/* top: 10px; */
+	
+}
+.auto .overlap2{
+	position: relative !important;
+	margin-left: 70px;
+	/* top: auto;	 */
+}
+
+.auto1 .nl-img{	
+	box-sizing: border-box;
+	max-width: 100% !important;
+	margin: auto;
+	height: 160px !important;
+	align-self: center;
+	margin: auto;
+}
+
 .social a i{
 	font-size: 24px;
 	font-weight: bolder;
@@ -458,7 +485,7 @@ footer .row .space{
 footer{
 	box-sizing: border-box !important;
 	width:97% !important;
-	margin:0 auto; !important;
+	margin:0 auto !important;
 }
 ul{
 	list-style:none;
