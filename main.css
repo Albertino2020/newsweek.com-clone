@@ -33,10 +33,13 @@ h6 {
 }
 
 .zero{
-	margin:0 !important;
+	margin: 0 !important;
 	padding:0 !important;
 }
-
+.social a i{
+	font-size: 24px;
+	font-weight: bolder;
+}
 header{
 margin:0;
 padding:0;
@@ -265,7 +268,7 @@ nav.button{
 	border-top: 2px solid grey;
 	display: inline-block;
 	width: 100%;
-	padding:0;
+	padding:20px;
 }
 .img-pos{
 	position: relative;
@@ -303,9 +306,12 @@ background-color: #FFFFFF;
 	padding: 0px 20px;
 	border-width: 0 0 1px 0 !important;
 }
-.red{
+.red-title{
 	color: red !important;
-}
+	background: white !important;
+	margin: 10px auto !important;
+	}
+	
 .button{
 	padding:0;
 	margin:0 70 0 0 !important;
@@ -344,18 +350,29 @@ background-color: #FFFFFF;
 	position: absolute;
 	left:70px;
 }
+.grey{
+	background-color:#F4F5F6;
+}
 
-.media-subscribe{
-	width: 100%;
-	background-color: #F4F5F6;
-}
+
 .nl-img{
-	width:40%;
-	height: 265px !important;
+	max-width: 180px;
+	margin-right:20px;
+	padding:0;
+	height: 260px;
 }
+
 .media-body{
-margin: auto 20px auto 20px;
-padding: auto;
+margin: 20px 10px !important;
+padding:20px 10px  !important;
+}
+.media-body p{
+margin: 0 0 10px 0 !important;
+padding: 0 !important;
+}
+.media div{
+margin: 0 0 10px 0 !important;
+padding: 0 !important;
 }
 .media-body button{
 	background-color: red;
@@ -476,7 +493,7 @@ ul{
 	color: white;
 }
 .red{
-	color: red;
+	color: red !important;
 	background-color: whitesmoke;
 	border-radius:0;
 	padding:10px;
