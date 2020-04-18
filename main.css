@@ -384,6 +384,18 @@ nav.button {
   padding: 0;
   height: 260px;
 }
+.side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+.side-left {
+  width: 25%;
+}
+.side-right {
+  width: 70%;
+}
 
 .media-body {
   margin: 20px 10px !important;
