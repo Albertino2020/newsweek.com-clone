@@ -23,8 +23,9 @@ main {
 
 p {
 	font-size: 15px;
-	font-weight: 400px;	
-	}
+	font-weight: 400px;
+		
+}
 	
 	a {
 		color: black;
@@ -101,6 +102,7 @@ main {
 
 .absolute {
 	position: absolute;	
+	
 }
 
 .none {
@@ -238,7 +240,8 @@ nav.button {
 	width: 130px;
 	background-color: white;
 	color: red;
-	font-weight: bolder;	
+	font-weight: bolder;
+		
 }
 
 .col1, .col2, .col3 {
@@ -556,11 +559,10 @@ ul {
 .mrg-zero {
 	margin: 10px 0;
 	padding: 0 0 0 0px;
-
 }
+
 .img-zero {
 	margin: auto 5px;
-	
 }
 
 .copyright {
