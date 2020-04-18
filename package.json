@@ -1,0 +1,23 @@
+{
+  "name": "newsweek.com-clone",
+  "version": "1.0.0",
+  "description": "> This project consists of building a replica of the news site Newsweek.com using the Bootstrap framework.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albertino2020/newsweek.com-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albertino2020/newsweek.com-clone/issues"
+  },
+  "homepage": "https://github.com/Albertino2020/newsweek.com-clone#readme",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
