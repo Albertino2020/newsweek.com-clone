@@ -421,15 +421,15 @@ padding: 0 !important;
 	margin: 0;
 }
 .col-md-12 a{
-color:black !important;	
-font-size:14px;
+  color:black !important;	
+	font-size:14px;
 
 }
 .col-md-12 p{
-margin: auto 20px;
+	margin: auto 20px;
 }
 .col-md-12 h6{
-margin-right:20px;
+	margin-right:20px;
 }
 
 footer .row .space{
@@ -511,13 +511,13 @@ ul{
 }
 
 .cpr{
-		margin: 20px 0 !important;
-		padding:0 !important;
-		display: block;
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #666;
+	margin: 20px 0 !important;
+	padding:0 !important;
+	display: block;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
 }
 
 .fb-ic, .tw-ic, .ins-ic, .li-ic{
