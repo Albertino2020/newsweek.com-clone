@@ -1,7 +1,7 @@
 html, body {
 	box-sizing: border-box !important;
-	margin:0;
-	width:100%;
+	margin: 0;
+	width: 100%;
 	font-family: 'Roboto Condensed', sans-serif !important;
 }
 
@@ -12,36 +12,36 @@ main {
 }
 
 .col-md-11 h4 {
-	margin-left:20px;
+	margin-left: 20px;
 }
 
 .col-md-11 div {
-	margin-left:10px;
+	margin-left: 10px;
 }
 	
 }
 
 p {
-	font-size:15px;
+	font-size: 15px;
 	font-weight: 400px;	
 	}
 	
 	a {
-		color:black;
+		color: black;
 	}
 	
 	h4, h4 small a {
-		font-weight:bolder;
+		font-weight: bolder;
 	}
 	
 h6 {
-	font-size:15px;
+	font-size: 15px;
 	font-weight: bolder;
 }
 
 .zero {
 	margin: 0 !important;
-	padding:0 !important;
+	padding: 0 !important;
 }
 
 .auto {
@@ -71,36 +71,36 @@ h6 {
 }
 
 .social {
-	margin-left:0 !important;
-	padding:0 !important;
+	margin-left: 0 !important;
+	padding: 0 !important;
 }
 
 .social a i {
 	font-size: 22px;
 	font-weight: bolder;
-	color: rgb(94, 92, 92);
-	margin-left:0;
+	color:  rgb(94, 92, 92);
+	margin-left: 0;
 }
 
 header {
-margin:0;
-padding:0;
+margin: 0;
+padding: 0;
 }
 
 header .container-fluid {
 	padding: 20px 10px 15px 10px;
 	background-color: #F73724;
-	width:100%;
-	margin:0 !important;
+	width: 100%;
+	margin: 0 !important;
 }
 
 main {
 	box-sizing: border-box !important;
-	padding:20px 30px !important;
+	padding: 20px 30px !important;
 }
 
 .absolute {
-	position:absolute;	
+	position: absolute;	
 }
 
 .none {
@@ -109,7 +109,7 @@ main {
 
 .none div a:hover {
 	text-decoration: none !important;
-	color:white;
+	color: white;
 }
 
 .hd-right {
@@ -118,12 +118,12 @@ main {
 
 .hd-right .btn,
 .hd-right .btn:hover {
-	font-weight:bolder;
+	font-weight:  bolder;
 	font-size: 17px;
 	text-transform: uppercase;
 	text-decoration: none !important;	
 	border-radius: 0;
-	padding:0;
+	padding:  0;
 	margin-left: 10px;
 }
 
@@ -142,13 +142,13 @@ main {
 .arrow-right {
 	width: 10px;
 	height: 20px;
-	color:red;
+	color: red;
 }
 
 .empty {
 	top: 0;
-	right:0;
-	margin-right:0;
+	right:  0;
+	margin-right:  0;
 	display: inline-block;
 	background-color: red;
 	width: 60px;
@@ -156,13 +156,13 @@ main {
 	content: "";
 	border-top: 13px solid red;
 	border-left: 12px solid white; 
-	padding:0;
+	padding: 0;
 }
 
 .full {
 	width: 100%;
-	padding:0;
-	margin:0;
+	padding:  0;
+	margin:  0;
 }
 
 nav {
@@ -174,24 +174,27 @@ nav {
 	font-weight: bolder;
 	background-color: white;
 	font-size: 19px;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 
 input {
-	width:100px;
+	width: 100px;
 }
+
 nav.button {
 	margin-right: 100px !important;
 }
+
 .img {
 	position: absolute;
 	margin-left:-60px;
-	margin-top:0;
+	margin-top:  0;
 	margin-right: 100px;
-	width:20px;
+	width: 20px;
 	background: transparent !important;
 }
+
 .navbar-brand img {
 	width: 396px;
 	height: 60px;
@@ -199,8 +202,8 @@ nav.button {
 
 .navbar {
 	width: 100% !important;
-	padding:0 !important;
-	margin:0;
+	padding:  0 !important;
+	margin:  0;
 }
 .nav {
 	border-bottom: 2px solid whitesmoke;
@@ -208,13 +211,13 @@ nav.button {
 
 .nav a {
 	margin: 10px 0 !important;
-	padding:3px auto !important; 
-	text-decoration: none;
+	padding:  3px auto !important; 
+	text-decoration:   none;
 	font-weight: bold;
 	height: 30px !important;
-	width:auto;
+	width:  auto;
 	max-width: auto !important;
-	color:black !important;
+	color:  black !important;
 	justify-items: center;
 }
 .nav .btn {
@@ -222,14 +225,14 @@ nav.button {
 	margin-left:-70px !important;
 }
 .nav input {
-	width:100px;
+	width:  100px;
 	height: 30px;
 	border-width: 0;
 	border-style: hidden;
 }
 .al {
 	color: white;
-	text-decoration:none;
+	text-decoration:  none;
 }
 .a {
 	width: 130px;
@@ -243,17 +246,17 @@ nav.button {
 }
 
 .mapping-sm_md {
-	width:100%;
-	margin:0;	
+	width:  100%;
+	margin:  0;	
 }
 
 .mapping-md {
-	width:100%;
-	margin:0;	
+	width:  100%;
+	margin:  0;	
 }
 
 .col-md-9 {
-	padding-left:20px;
+	padding-left:  20px;
 }
 
 .one {
@@ -262,7 +265,7 @@ nav.button {
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #F4F5F6;
-	max-width:300px;
+	max-width:  300px;
 	height: 170px;
 	margin: 0 auto 30px;
   border: 1px solid #e5e5e5;
@@ -302,7 +305,7 @@ nav.button {
 }
 
 .info-solid-red {
-	border-top:5px solid red;
+	border-top: 5px solid red;
 	padding: 0 !important;
 	margin:0 !important;
 }
@@ -310,13 +313,13 @@ nav.button {
 .info-solid-red .col-md-3 {
 
 	padding-left: 0 !important;
-	margin-left:0 !important;
+	margin-left: 0 !important;
 	height: 100%;
 }
 
 .row-pos {
-	margin:0;
-	padding:0;
+	margin:  0;
+	padding:  0;
 	display: flex;
 	flex-direction: row;
 	text-align: justify;
@@ -326,21 +329,21 @@ nav.button {
 	border-top: 2px solid grey;
 	display: inline-block;
 	width: 100%;
-	padding:20px;
+	padding: 20px;
 }
 
 .img-pos {
 	position: relative;
-	height:60px;
-	width:60px;
-	margin:auto 0 auto auto;
+	height: 60px;
+	width: 60px;
+	margin: auto 0 auto auto;
 	top: -30px;
-	right:-10px;
+	right: -10px;
 }
 
 .vs {
 	width: 50px;
-	height:50px;
+	height: 50px;
 	margin-bottom: 40px;
 }
 
@@ -357,7 +360,7 @@ nav.button {
 }
 
 .bd {
-border:1px solid #E6E6E6;
+border: 1px solid #E6E6E6;
 background-color: #FFFFFF;
 }
 
@@ -380,28 +383,27 @@ background-color: #FFFFFF;
 	
 .button {
 	padding:0;
-	margin:0 70 0 0 !important;
+	margin: 0 70 0 0 !important;
 }
 
 .well button {
 	width: 100px;
-	background:#666666;
+	background: #666666;
 	color: white !important;
-	margin:0 auto 0 20px;
+	margin: 0 auto 0 20px;
 	border: none;
 	border-radius: 0;
 }
 
 .well button:hover {
-	background:#9c9b9b;
-
+	background: #9c9b9b;
 }
 
 .well p {
 	color: black !important;
-	margin:10px auto 10px 20px !important;
+	margin: 10px auto 10px 20px !important;
 	font-size: 16px !important;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .well p a {
@@ -414,29 +416,29 @@ background-color: #FFFFFF;
 
 .none div a {
 	font-size: 1rem  !important;
-	font-weight:700px  !important;
+	font-weight: 700px  !important;
 	line-height: 1.5rem  !important;
 }
 
 .overlap {
 	position: absolute;
-	left:70px;
+	left: 70px;
 }
 
 .grey {
-	background-color:#F4F5F6;
+	background-color: #F4F5F6;
 }
 
 .nl-img {
 	max-width: 180px;
-	margin-right:20px;
-	padding:0;
+	margin-right: 20px;
+	padding: 0;
 	height: 260px;
 }
 
 .media-body {
   margin: 20px 10px !important;
-  padding:20px 10px  !important;
+  padding: 20px 10px  !important;
 }
 
 .media-body p {
@@ -470,8 +472,8 @@ background-color: #FFFFFF;
 }
 
 .col-md-12 a {
-  color:black !important;	
-	font-size:14px;
+  color: black !important;	
+	font-size: 14px;
 }
 
 .col-md-12 p {
@@ -479,19 +481,19 @@ background-color: #FFFFFF;
 }
 
 .col-md-12 h6 {
-	margin-right:20px;
+	margin-right: 20px;
 }
 
 footer .row .space {
 	border-bottom: 1px solid whitesmoke;
 	padding-bottom: 5px;
-	margin:0;
+	margin: 0;
 }
 
 .img-box {
 	position: absolute;
 	margin-top:-30px;
-	margin-left:0;
+	margin-left: 0;
 	margin-bottom: 0;
 	width: 70px;
 	height: 30px;
@@ -508,20 +510,20 @@ footer .row .space {
 }
 
 .img-box3 {
-	margin-top:-30px;
-	margin-left:0;
+	margin-top: -30px;
+	margin-left: 0;
 	margin-bottom: 0;
 	width: 180px;
 	height: 30px;
 	overflow: visible;
-	background-color:whitesmoke;
-	color:blue !important;
+	background-color: whitesmoke;
+	color: blue !important;
 }
 
 .img-box4 {
 	position: absolute;
-	margin-top:-30px;
-	margin-left:0;
+	margin-top: -30px;
+	margin-left: 0;
 	margin-bottom: 0;
 	width: 110px;
 	height: 30px;
@@ -532,8 +534,8 @@ footer .row .space {
 
 .in-magz {
 	width: 70px;
-	height:40px;
-	color:red !important;
+	height: 40px;
+	color: red !important;
 	margin-left: 10px;
 }
 
@@ -543,21 +545,21 @@ footer .row .space {
 
 footer {
 	box-sizing: border-box !important;
-	width:97% !important;
-	margin:0 auto !important;
+	width: 97% !important;
+	margin: 0 auto !important;
 }
 
 ul {
-	list-style:none;
+	list-style: none;
 }
 
 .mrg-zero {
-	margin:10px 0;
-	padding:0 0 0 0px;
+	margin: 10px 0;
+	padding: 0 0 0 0px;
 
 }
 .img-zero {
-	margin:auto 5px;
+	margin: auto 5px;
 	
 }
 
@@ -567,12 +569,12 @@ ul {
   line-height: 12px;
   text-transform: uppercase;
   color: #666;
-  padding:20px 10px 0 10px;
+  padding: 20px 10px 0 10px;
 }
 
 .cpr {
 	margin: 20px 0 !important;
-	padding:0 !important;
+	padding: 0 !important;
 	display: block;
   font-size: 12px;
   line-height: 12px;
@@ -583,14 +585,14 @@ ul {
 .fb-ic, .tw-ic, .ins-ic, .li-ic {
 	font-size: 22px;
 	font-weight: bolder;
-	margin-left:0;
-	padding-left:0 !important;
-	left:0;
+	margin-left: 0;
+	padding-left: 0 !important;
+	left: 0;
 }
 
 .sp {
 	display: flex;
-	padding:3px 3px !important;
+	padding: 3px 3px !important;
 }
 
 /*THESE CLASSES ARE COMMON TO SMALL SCREENS*/
@@ -598,8 +600,8 @@ ul {
 .white {
 	color: white;
 	background-color: transparent;
-	border-radius:0;
-	padding:10px;
+	border-radius: 0;
+	padding: 10px;
 }
 
 .white:hover {
@@ -610,12 +612,12 @@ ul {
 .red {
 	color: red !important;
 	background-color: whitesmoke;
-	border-radius:0;
-	padding:10px;
+	border-radius: 0;
+	padding: 10px;
 }
 
 .red:hover {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 /* CLASSES COMMON TO SMALL SCREENS END HERE */
@@ -623,7 +625,7 @@ ul {
 /*XS CLASSES START HERE*/
 
 .xs {
-	margin:0 !important;
+	margin: 0 !important;
 }
 
 .xs-lg {
@@ -636,7 +638,7 @@ ul {
 /*SM CLASSES START HERE*/
 
 .sm {
-	margin:0 !important;
+	margin: 0 !important;
 }
 
 .sm-lg {
@@ -660,7 +662,7 @@ ul {
 /*MD CLASSES END HERE*/
 .xs, .sm, .md {
 	top: 0;
-	left:0;
+	left: 0;
 	position: fixed;
 	z-index: 1;
 }
