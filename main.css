@@ -28,7 +28,7 @@ p {
 		font-weight:bolder;
 	}
 h6 {
-	font-size:16px;
+	font-size:15px;
 	font-weight: bolder;
 }
 
@@ -45,13 +45,11 @@ h6 {
 .auto .overlap1{
 	position: absolute !important;
 	margin-left: auto;
-	/* top: 10px; */
 	
 }
 .auto .overlap2{
 	position: relative !important;
 	margin-left: 70px;
-	/* top: auto;	 */
 }
 
 .auto1 .nl-img{	
@@ -62,10 +60,16 @@ h6 {
 	align-self: center;
 	margin: auto;
 }
+.social{
+	margin-left:0 !important;
+	padding:0 !important;
+}
 
 .social a i{
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bolder;
+	color: rgb(94, 92, 92);
+	margin-left:0;
 }
 header{
 margin:0;
@@ -240,11 +244,8 @@ nav.button{
 	background-color: #F4F5F6;
 	max-width:300px;
 	height: 170px;
-	/* margin: 40px 40px !important;
-	padding: 20px 20px 20px 0;     */
 	margin: 0 auto 30px;
     border: 1px solid #e5e5e5;
-    /* background-color: #f4f5f6; */
     padding: 20px;
 }
 .flex-xs{
@@ -434,6 +435,7 @@ margin-right:20px;
 footer .row .space{
 	border-bottom: 1px solid whitesmoke;
 	padding-bottom: 5px;
+	margin:0;
 }
 .img-box{
 	position: absolute;
@@ -480,7 +482,7 @@ footer .row .space{
 	margin-left: 10px;
 }
 .fts{
-	margin:10px 10px 10px 0;
+	margin:5px 5px 5px 0;
 }
 footer{
 	box-sizing: border-box !important;
@@ -499,9 +501,31 @@ ul{
 	margin:auto 5px;
 	
 }
+.copyright{
+	display: block;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  padding:20px 10px 0 10px;
+}
+
+.cpr{
+		margin: 20px 0 !important;
+		padding:0 !important;
+		display: block;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+}
+
 .fb-ic, .tw-ic, .ins-ic, .li-ic{
 	font-size: 22px;
 	font-weight: bolder;
+	margin-left:0;
+	padding-left:0 !important;
+	left:0;
 }
 .sp{
 	display: flex;
