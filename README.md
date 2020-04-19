@@ -1,57 +1,34 @@
-# Project Name
+# Newsweek Web Page Clone
 
-> One paragraph statement about the project.
+> This project consists of building a replica of the news site Newsweek.com using the Bootstrap framework.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/images/1.png)
+![screenshot](/images/2.png)
+![screenshot](/images/3.png)
+![screenshot](/images/4.png)
+![screenshot](/images/5.png)
 
-Additional description about the project and its features.
+This project includes responsive features, adapting to different screen sizes.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3,
+- Twitter Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/newsweek.com-clone/56a9a7ba2bad11560fceab7b3ca9ab66113d67b4/index.html)
 
 
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Albertino2020](https://github.com/Albertino2020)
+- Twitter: [@albertino2050](https://twitter.com/albertino2050)
+- Linkedin: [Albertino Francisco](https://linkedin.com/in/boamorte)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -63,11 +40,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
